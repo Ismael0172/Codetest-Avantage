@@ -1,0 +1,113 @@
+*{
+	margin: 0 auto;
+    padding: 0 auto;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(255,50,50);
+}
+
+/* Sectie een */
+
+.een {
+    width: 100vw;
+    height: auto;
+}
+
+/* Sectie een koptekst */
+
+.een .koptekst {
+    width: 20em;
+    margin-top: 10vw;
+    height: auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 1px #aaa;
+}
+
+.een .koptekst h1 {
+    text-align: center;
+    color: #000;
+    padding: 20px;
+    font-size: 1.75em;
+}
+
+/* Sectie een inloggen formulier */
+
+.een .inloggen {
+    background-color: #fff;
+    margin-top: 2vw;
+    padding-bottom: 20px;
+    height: auto;
+    width: 20em;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 1px #aaa;
+    user-select: none;
+}
+.een .inloggen h2 {
+   padding: 20px;
+   text-align: center;
+   width: 50%;
+}
+
+.een .inloggen .formulier {
+    padding: 20xp;
+    border-top: 2px solid #aaa;
+    width: 12.25em;
+    height: auto;
+}
+.een .inloggen label {
+    padding: 5px 5px;
+}
+
+.een .inloggen input[type=text] {
+    padding: 5px 15px;
+    margin: 5px 0px;
+    border: 2px solid #aaa;
+    transition: 0.2s ease;
+}
+
+.een .inloggen input[type=password] {
+    padding: 5px 15px;
+    margin: 5px 0px;
+    border: 2px solid #aaa;
+    transition: 0.2s ease;
+}
+
+.een .inloggen input[type=submit] {
+    padding: 5px 10px;
+    border: 2px solid #000;
+    border-radius: 50vw;
+    cursor: pointer;
+    width: 50%;
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+    transition: 0.2s ease;
+}
+
+
+.een .inloggen input[type=text]:hover {
+    border: 2px solid #000;
+}
+
+.een .inloggen input[type=password]:hover {
+    border: 2px solid #000;
+}
+
+
+.een .inloggen input[type=submit]:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
